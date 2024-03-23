@@ -1,0 +1,28 @@
+Intro to Web Development
+
+Guidelines and best practices
+
+** Read this before starting/submitting an assignment**
+
+- Your code must be clear, well-formatted, readable and easy to understand
+- Ask for clarification. There is no 'I guess' in our assignments.
+- Look for examples online (always),and ask yourself if that particular
+  element/feature makes sense.
+- Name your main html file'index.html'
+- File and folder names always in lowercase characters (with dashes instead
+of empty spaces)
+- Consistency and CARP principles are required
+- Indentation is important. We can use either 2 or 4 spaces
+- Avoid side-scrolling in your code
+- Use only English in your assignment
+- In web design, details matter
+- Use only one <h1> ,<header>, <footer>, <main>, <article> per page
+- Do not use <br>. That's CSS' job
+- Don't keep links with their default colour
+- Use "target="_blank' when opening external pages
+- Css reset and containers are always required-Cinsistency and carp principles are also required
+-In web design we don't use random colours. There is a science behind 
+the colours we pick
+-Borders,shadows,transition,animation should be smooth and subtle
+-Dark mode is not about white text over black background.It'ss more complex
+than that (again,get examples online)
