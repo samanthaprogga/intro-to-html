@@ -1,0 +1,127 @@
+@charset "utf-8"
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    background-color: #0;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+
+
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    overflow: hidden;
+    background-color: #6b3c6b; /* Slightly more purple */
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    outline: none;
+    background-color: #6b3c6b; /* Slightly more purple */
+    color: white;
+}
+
+.search-icon {
+    color: #0; /* Deep Purple */
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6b3c6b; /* Slightly more purple */
+    border: none;
+    border-radius: 20px 0 0 20px; /* Rounded corners on the left side */
+    font-size: 16px; /* Adjust icon size */
+    }
+    
+    .flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: #0;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+span {
+    background: #87CEEB;
+    padding: .5rem .85rem;
+    border-radius: 90%;
+}
+.category-title {
+    font-weight: bold;
+    text-align: center;
+    width: 0px;
+}
+
+.category-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 1080px;
+    gap:120px;
+}
+
+.data-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1080px;
+    gap: 100px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.data-label {
+    flex-basis: 25%;
+    text-align: left;
+}
+
+.data-value {
+    flex-basis: 20%;
+    text-align: center;
+}
+.p {
+border-radius: 25px;
+
+}

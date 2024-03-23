@@ -1,0 +1,48 @@
+@charset "utf-8"
+
+body {
+    background-color: #1a1d28;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+}
+
+
+main {
+    padding: 100px 0;
+}
+
+input(type=text) {
+    height: 46px;
+    border-radius: 50px;
+    font-size:17px;
+    color: #fff;
+    transition:all 0.25s ease-in-out;
+
+}
+
+input[type=text] {
+    width: 320px;
+    padding: 0 20px;
+    background: rgb(255 255 255 / 0.15);
+    background-size: 16px;
+    border: 1px solid rgb(255 255 255 / 0.15);
+
+}
+input[type=text]:focus {
+    border: 1px solid rgb(255 255 255 / 0.35);
+}
+input[type=button] {
+   margin-left: 12px;
+   width: 120px;
+   text-align:center 
+   background-color: #3c57ff;
+   font-weight: 600;
+   cursor: pointer;
+}
+
+input[type=button]:hover {
+    background-color: #3865ff
+}

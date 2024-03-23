@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+h2,
+h3,
+p {
+    margin-top: 20px;
+}
+
+/* Size unit styling */
+.pc {
+    font-size: 1pc;
+}
+
+.pt {
+    font-size: 12pt;
+}
+
+.px {
+    font-size: 24px;
+}
+
+.em {
+    font-size: 2em;
+}
+
+.rem {
+    font-size: 3rem;
+}
+
+.percentage {
+    font-size: 50%;
+}
+
+.vh {
+    font-size: 20vh;
+}
+
